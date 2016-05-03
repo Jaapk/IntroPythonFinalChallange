@@ -36,7 +36,7 @@ def askReadOrWrite():
 
 def readMyFile(myFile):
 	if os.path.exists(myFile): 
-		with open(myFile, mode='r') as mygit config --global user.name "YOUR NAME"file:
+		with open(myFile, mode='r') as myfile:
 		# myfile = open(myFile, mode='r')
 			fileData = myfile.read()
 			print(fileData)
